@@ -1,12 +1,15 @@
+// import React from "react";
 import "./App.css";
-import FrontPage from "./pages/FrontPage";
+import NasaImage from "./NasaImage";
 
 function App() {
-    return (
-        <>
-            <FrontPage />
-        </>
-    );
+  return (
+    <div>
+      <header>
+        <NasaImage />
+      </header>
+    </div>
+  );
 }
 
 export default App;
