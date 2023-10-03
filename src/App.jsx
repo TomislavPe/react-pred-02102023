@@ -8,10 +8,13 @@ function App() {
     const query = gql`
         {
             countries {
-                currency
                 code
+                currency
                 name
                 emoji
+                continent{
+                    name
+                }
             }
         }
     `;
